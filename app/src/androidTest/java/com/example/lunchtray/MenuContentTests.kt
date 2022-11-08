@@ -40,7 +40,7 @@ class MenuContentTests : BaseTest() {
      * however, it is done here for improved readability of the file.
      */
     @Test
-    fun `entree_menu_item_content`() {
+    fun entree_menu_item_content() {
         // launch the entree menu fragment
         launchFragmentInContainer<EntreeMenuFragment>(themeResId = R.style.Theme_LunchTray)
 
